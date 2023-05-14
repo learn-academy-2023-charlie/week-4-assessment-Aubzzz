@@ -57,23 +57,27 @@
 
 # -------------------3) Create a method that takes in a string and checks if the string is a palindrome. A palindrome is the same word spelled forward or backward. Use the test variables provided.
 
-# .reverse
-# palindrome_test_case1 = 'Racecar'
-palindrome_test_case2 = 'LEARN'
-
-def pali(palindrome_test_case2)
-    if palindrome_test_case2.reverse == palindrome_test_case2
-     "#{palindrome_test_case2} is a palindrome"
-# else 
-#     palindrome_test_case2.reverse != palindrome_test_case2
-#     "#{palindrome_test_case2} is not a palindrome"
-end
-end
-p pali(palindrome_test_case2)
-
-# palindrome_test_case1 = 'Racecar'
+#palindrome_test_case1 = 'Racecar'
 # Expected output: 'Racecar is a palindrome'
+#Output: Racecar is a palindrome
+
 # palindrome_test_case2 = 'LEARN'
 # Expected output: 'LEARN is not a palindrome'
+# output: LEARN is not a palindrome
+
 # palindrome_test_case3 = 'Rotator'
-# Expected output: 'Rotator is a palindrome'
+# # Expected output: 'Rotator is a palindrome'
+# # Output: Rotator is a palindrome
+
+# def pali(palindrome_test_case3)
+#     if palindrome_test_case3.downcase == palindrome_test_case3.downcase.reverse
+#      "#{palindrome_test_case3} is a palindrome"
+# else 
+#     palindrome_test_case3.reverse != palindrome_test_case3
+#     "#{palindrome_test_case3} is not a palindrome"
+#     end
+# end
+# puts pali(palindrome_test_case3)
+
+
+
